@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca Virtual - IPO</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <header>
+        <h1>Biblioteca Virtual - IPO</h1>
+        <nav>
+            <ul>
+                <li><a href="#libros">Libros</a></li>
+                <li><a href="#autores">Autores</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#inicio_sesion">Inicia Sesión</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="busqueda">
+        <h2>Búsqueda de libros</h2>
+        <div class="row barraBusqueda">
+            <div class="col-md">
+                <select class="form-select form-select-lg mb-3" aria-label="Large select example">
+                    <option selected>Total de Libros</option>
+                    <option value="1">Nacidos de la Bruma. El Imperio Final</option>
+                    <option value="2">Reina Roja</option>
+                    <option value="3">El Código Da Vinci</option>
+                    <option value="4">Dispara, yo ya estoy muerto</option>
+                    <option value="5">Los pilares de la Tierra</option>
+                    <option value="6">El Señor de los Anillos. La Comunidad del Anillo</option>
+                </select>
+            </div>
+            <div class="col-md">
+                <select class="form-select form-select-lg mb-3" aria-label="Large select example">
+                    <option selected>Libros clasificados por autores</option>
+                    <option value="1">Brandon Sanderson</option>
+                    <option value="2">Juan Gómez-Jurado</option>
+                    <option value="3">Dan Brown</option>
+                    <option value="4">Julia Navarro</option>
+                    <option value="5">Ken Follett</option>
+                    <option value="6">J.R.R. Tolkien</option>
+                </select>
+            </div>
+            <div class="col-md">
+                <select class="form-select form-select-lg mb-3" aria-label="Large select example">
+                    <option selected>ISBN</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                </select>
+            </div>
+            <div class="col-md">
+                <p><a href="search.html" class="link-body-emphasis link-offset-2 link-underline-opacity-25 link-underline-opacity-75-hover">Buscar</a></p>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="libros">
+        <h2>Libros Populares</h2>
+        
+        <div class="book-container">
+            <img src="img/nacidos_de_la_bruma.jpg" alt="Nacidos de la bruma. El Imperio Final" />
+            <div class="book-preview">
+                <p><strong>Libro:</strong> Nacidos de la Bruma. El Imperio Final</p>
+                <p><strong>Autor:</strong> Brandon Sanderson</p>
+                <p><strong>Descripción del libro:</strong> El imperio final inicia la saga «Nacidos de la Bruma  [Mistborn]», obra imprescindible del Cosmere, el universo destinado a  dar forma a la serie más extensa y fascinante jamás escrita en el ámbito de la fantasía épica.</p>
+                <p><strong>Fecha de publicación:</strong> 17 de julio de 2006</p>
+            </div>
+        </div>
+    
+        <div class="book-container">
+            <img src="img/reina_roja.jpg" alt="Reina Roja" />
+            <div class="book-preview">
+                <p><strong>Libro:</strong> Reina Roja</p>
+                <p><strong>Autor:</strong> Juan Gómez-Jurado</p>
+                <p><strong>Descripción del libro:</strong> Antonia Scott es especial. Muy especial.
+                No es policía ni criminalista. Nunca ha empuñado un arma ni llevado una placa, y, sin embargo, ha resuelto decenas de crímenes.
+                Pero hace un tiempo que Antonia no sale de su ático de Lavapiés...</p>
+                <p><strong>Fecha de publicación:</strong> 8 de noviembre de 2018</p>
+            </div>
+        </div>
+    
+        <div class="book-container">
+            <img src="img/codigo_da_vinci.jpg" alt="El Código Da Vinci" />
+            <div class="book-preview">
+                <p><strong>Libro:</strong> El Código Da Vinci</p>
+                <p><strong>Autor:</strong> Dan Brown</p>
+                <p><strong>Descripción del libro:</strong> La mayor conspiración de los últimos 2000 años está a punto de ser desvelada.
+                    Robert Langdon recibe una llamada en mitad de la noche: el conservador del museo del Louvre ha sido asesinado en extrañas circunstancias y junto a su cadáver ha aparecido un desconcertante mensaje cifrado...</p>
+                <p><strong>Fecha de publicación:</strong> 18 de marzo de 2003</p>
+            </div>
+        </div>
+    
+        <div class="book-container">
+            <img src="img/dispara_yo_ya_estoy_muerto.jpg" alt="Dispara, yo ya estoy muerto" />
+            <div class="book-preview">
+                <p><strong>Libro:</strong> Dispara, yo ya estoy muerto</p>
+                <p><strong>Autor:</strong> Julia Navarro</p>
+                <p><strong>Descripción del libro:</strong> Dispara, yo ya estoy muerto es una historia llena de historias, una gran novela que esconde muchas novelas y que, desde su enigmático título hasta su inesperado final, alberga más de una sorpresa y emociones a flor de piel.</p>
+                <p><strong>Fecha de publicación:</strong> 15 de enero de 2006</p>
+            </div>
+        </div>
+    
+        <div class="book-container">
+            <img src="img/los_pilares_de_la_tierra.jpg" alt="Los pilares de la Tierra" />
+            <div class="book-preview">
+                <p><strong>Libro:</strong> Los pilares de la Tierra</p>
+                <p><strong>Autor:</strong> Ken Follett</p>
+                <p><strong>Descripción del libro:</strong> Los pilares de la Tierra es la obra maestra de Ken Follett y constituye una excepcional evocación de una época de violentas pasiones.</p>
+                <p><strong>Fecha de publicación:</strong> Publicado en 1989</p>
+            </div>
+        </div>
+    
+        <div class="book-container">
+            <img src="img/el_senor_de_los_anillos.jpg" alt="El Señor de los anillos. La comunidad del anillo" />
+            <div class="book-preview">
+                <p><strong>Libro:</strong> El Señor de los Anillos. La Comunidad del Anillo</p>
+                <p><strong>Autor:</strong> J.R.R. Tolkien</p>
+                <p><strong>Descripción del libro:</strong> «La obra de Tolkien, difundida en millones de ejemplares, traducida a docenas de lenguas... una coherente mitología de una autenticidad universal creada en pleno siglo XX», Le Monde...</p>
+                <p><strong>Fecha de publicación:</strong> 29 de julio de 1954</p>
+            </div>
+        </div>
+    
+    </section>
+    
+
+    <section id="autores">
+        <h2>Autores Destacados</h2>
+        <div class="autor-container"></div>
+            <img src="img/brandon_sanderson.jpg" alt="Brandon Sanderson" title="Brandon Sanderson" />
+            <img src="img/juan_gomez_jurado.jpg" alt="Juan Gomez-Jurado" title="Juan Gomez-Jurado" />
+            <img src="img/dan_brown.jpg" alt="Dan Brown" title="Dan Brown" />
+            <img src="img/julia_navarro.jpg" alt="Julia Navarro" title="Julia Navarro" />
+            <img src="img/ken_follet.jpg" alt="Ken Follet" title="Ken Follet" />
+            <img src="img/tolkien.png" alt="J.R.R Tolkien" title="J.R.R Tolkien" />
+        </div>
+    </section>
+    
+
+    <footer id="contacto">
+        <p>Contacta con nosotros: info@bibliotecavirtual-IPO.com</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

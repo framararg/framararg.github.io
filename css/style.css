@@ -1,0 +1,181 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #444;
+    color: white;
+    text-align: center;
+    padding: 0.5em 1ema;
+}
+
+header h1 {
+    margin-left: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.book-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+#busqueda-libros {
+    text-align: center;
+    margin: auto;
+    max-width: 800px;
+    padding: 20px;
+}
+
+#formulario-busqueda {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+}
+
+#titulo-libro {
+    position: relative; 
+}
+
+#resultado-busqueda {
+    position: absolute;
+    top: 100%;
+    left: 20px;
+    right: 20px;
+    z-index: 1000;
+    display: none;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.lista-oculta li {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.lista-oculta li:hover {
+    background-color: #f7f7f7;
+}
+
+
+#formulario-busqueda input {
+    width: 80%; 
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#formulario-busqueda button {
+    width: 80%;
+    padding: 10px;
+    border: none;
+    background-color: #444;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#formulario-busqueda button:hover {
+    background-color: #555;
+}
+
+
+.book-container {
+    position: relative;
+    display: inline-block; 
+    margin: 10px;
+    cursor: pointer;
+}
+
+.book-preview {
+    display: none;
+    position: absolute;
+    width: 300px;
+    bottom: 100%; 
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    z-index: 100;
+}
+
+.book-container:hover .book-preview {
+    display: block;
+}
+
+
+.book-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.info-icon {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    padding: 5px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.book-preview {
+    display: none;
+ 
+}
+
+
+section {
+    text-align: center;
+    margin: auto;
+    max-width: auto;
+    padding-top: 4%;
+    padding: 4%
+}
+
+footer {
+    background-color: #444;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    width: 100%;
+}
+
+.barraBusqueda {
+    padding-top: 4%;
+
+}
